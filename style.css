@@ -1,8 +1,46 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
-header{
-    background-color:  #1f2937;
+.container{
+    width: 1200px;
+    margin: 0 auto 0 auto;
 }
+
+.header{
+    background-color:  #1f2937;
+    min-height: 500px;
+    padding: 20px 0 0 0;
+}
+
+.navbar{
+    display: flex;
+
+}
+
+.navbar ul{
+    list-style-type: none; 
+    margin-left: auto;
+}
+
+.navbar li a{
+    display: inline-block;
+    text-align: center;
+    justify-content: right;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.brand{
+    display: inline-block;
+    justify-content: left;
+    font-size: 24px;
+    color:  #f9faf8;
+    font-weight: 700;
+}
+
+
