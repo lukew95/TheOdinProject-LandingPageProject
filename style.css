@@ -160,3 +160,13 @@
     border-radius: 12px;
     border: 2px solid white;
 }
+
+.footer{
+    background-color: #1f2937;
+    padding: 60px 0 60px 0;
+}
+
+.footer p{
+    color:#e5e7eb;
+    text-align: center;
+}
